@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dbserver-config
+  namespace: crawler
+data:
+  mysql_username: root
+  mysql_database: webcrawler

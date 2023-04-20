@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: webcrawler-config
+  namespace: crawler
+data:
+  dbserver_url: "jdbc:mysql://dbserver-service:3306/webcrawler"
+  mysql_username: root
+  mysql_database: webcrawler
